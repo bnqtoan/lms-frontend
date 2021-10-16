@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form autocomplete="off" method="POST" target="_blank" action="http://localhost/lms-frontend/008-form/server.php">
+        <label for="name">Họ và tên</label>
+        <input required type="text" id="name" name="ho-va-ten">
+        <label for="a">
+            <input type="radio" name="a" id="a">
+            Đáp án A
+        </label>
+        <label for="b">
+            Đáp án B
+        </label>
+        <input type="radio" name="a" id="b">
+        <label for="">
+            <input type="radio" name="a">
+            Đáp án C
+        </label>
+
+        <label for="">
+            <input type="checkbox" name="a">
+            Đáp án A
+        </label>
+        <label for="">
+            <input type="checkbox" name="a">
+            Đáp án B
+        </label>
+        <label for="">
+            <input type="checkbox" name="a">
+            Đáp án C
+        </label>
+        <input type="submit" value="Gửi"/>
+    </form>
+</body>
+</html>
